@@ -514,13 +514,12 @@ footer .navlinks-footer a:hover{
 			/*== PROJECTS ==*/
 
 .project-screen{
-	position: top;
 	background: url('../imgs/all-screens-background.png') no-repeat;
-  background-position: top;
+	background-position: top;
 	background-size: 100%;
 }
 .projects-links{
-  margin-top: 8%;
+  	margin-top: 8%;
 	display: flex;
 	justify-content: center;
 	z-index: 0;
@@ -585,9 +584,8 @@ footer .navlinks-footer a:hover{
 /*-- About Screen --*/
 
 .about-screen{
-  position: top;
 	background: url('../imgs/all-screens-background.png') no-repeat;
-  background-position: top;
+  	background-position: top;
 	background-size: 100%;
 }
 .section-about{
@@ -696,7 +694,6 @@ footer .navlinks-footer a:hover{
 	display: block;
 	width: 50%;
 	margin: 0 0 20px 20px;
-	height: fit-content;
 	float: right;
 }
 .about-me-block h3{
@@ -965,13 +962,12 @@ footer .navlinks-footer a:hover{
 
 
 .contacts-screen{
-	position: top;
 	background: url('../imgs/all-screens-background.png') no-repeat;
-  background-position: top;
+	background-position: top;
 	background-size: 100%;
 }
 .contacts-links{
-  margin-top: 11%;
+  	margin-top: 11%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -1339,112 +1335,138 @@ div.scrollup {
 div.scrollup:hover {
   opacity: 1;
 }
-@media screen and (max-width: 1080px){
-footer .navlinks-footer{
-	display: flex;
-	flex-direction: column;
-}
-footer .navlinks-footer a{
-	line-height: 120%;
-}
-footer .navlinks-footer li{
-	margin-bottom: 16px;
-}
-footer .navlinks-footer li:last-child{
-	margin-bottom: 0;
-}
-@media screen and (max-width: 900px){
-.navbar{
-	align-items: start;
-}
-.navbar-mobile{
-	height: 80vh;
-}
-.navlinks{
-	height: 50%;
-	justify-content: space-between;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-	.navlinks li{
-		margin-right: 0;}
-}
-.navbar-button {
-  display: block;
-}
-.navbar .navlinks-mobile{
-	position: absolute;
-	display: flex;
-	align-items: center;
-	align-self: center;
-	flex-direction: column;
-	height: 35%;
-	justify-content: space-between;
-}
-.navbar .navlinks-mobile a{
-	font-size: 30px;
-}
-.project-page{
-	padding-top: 155px
-}
-.project-page .top-block h1{
-	margin-bottom: 38px
-}
-.thanks h4{
-	font-size: 50px;
-}
-.thanks h4 span{
-	font-size: 80px
-}
-.title p{
-	font-size: 60px;
-}
-.title p.italic{
-	font-size: 100px;
-}
-.title .of-modern{
-  left: -90px;
-}
-.title .website{
-  left: 100px;
-}
-.title .of-useful{
-  left: -100px;
-}
-.title .user{
-  left: 50px;
-}
-.title .of-personal{
-  left: -100px;
-}
-.title .history{
-  left: 100px;
-}
-.about-name{
-	padding-bottom: 130px;
-}
-.about-me-block h3{
-	margin-right: 0;
-	text-align: left;
-}
-.about-me-block text:
-}
-.work-flow-block{
-	display: none;
-}
-.prices-block:before{
-	font-size: 180px;
-}
-.page-with-services h3{
-	justify-content: center;
-}
-footer .navlinks-footer{
-	height: 100%;
-	align-items: center;
-	position: relative;
-}
+@media screen and (max-width: 1080px) {
+	footer .navlinks-footer {
+		display: flex;
+		flex-direction: column;
+	}
 
+	footer .navlinks-footer a {
+		line-height: 120%;
+	}
+
+	footer .navlinks-footer li {
+		margin-bottom: 16px;
+	}
+
+	footer .navlinks-footer li:last-child {
+		margin-bottom: 0;
+	}
+
+	@media screen and (max-width: 900px) {
+		.navbar {
+			align-items: start;
+		}
+
+		.navbar-mobile {
+			height: 80vh;
+		}
+
+		.navlinks {
+			height: 50%;
+			justify-content: space-between;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.navlinks li {
+			margin-right: 0;
+		}
+	}
+	.navbar-button {
+		display: block;
+	}
+
+	.navbar .navlinks-mobile {
+		position: absolute;
+		display: flex;
+		align-items: center;
+		align-self: center;
+		flex-direction: column;
+		height: 35%;
+		justify-content: space-between;
+	}
+
+	.navbar .navlinks-mobile a {
+		font-size: 30px;
+	}
+
+	.project-page {
+		padding-top: 155px
+	}
+
+	.project-page .top-block h1 {
+		margin-bottom: 38px
+	}
+
+	.thanks h4 {
+		font-size: 50px;
+	}
+
+	.thanks h4 span {
+		font-size: 80px
+	}
+
+	.title p {
+		font-size: 60px;
+	}
+
+	.title p.italic {
+		font-size: 100px;
+	}
+
+	.title .of-modern {
+		left: -90px;
+	}
+
+	.title .website {
+		left: 100px;
+	}
+
+	.title .of-useful {
+		left: -100px;
+	}
+
+	.title .user {
+		left: 50px;
+	}
+
+	.title .of-personal {
+		left: -100px;
+	}
+
+	.title .history {
+		left: 100px;
+	}
+
+	.about-name {
+		padding-bottom: 130px;
+	}
+
+	.about-me-block h3 {
+		margin-right: 0;
+		text-align: left;
+	}
+
+	.work-flow-block {
+		display: none;
+	}
+
+	.prices-block:before {
+		font-size: 180px;
+	}
+
+	.page-with-services h3 {
+		justify-content: center;
+	}
+
+	footer .navlinks-footer {
+		height: 100%;
+		align-items: center;
+		position: relative;
+	}
+}
 @media screen and (max-width : 768px)  {
 .block h3{
 	font-size: 50px;
